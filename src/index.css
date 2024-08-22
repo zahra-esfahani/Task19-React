@@ -1,0 +1,16 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  max-width: 1200px;
+  background-color: rgba(115, 163, 115, 0.421);
+  margin: auto;
+  min-height: 100vh;
+}
+

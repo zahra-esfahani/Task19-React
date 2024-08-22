@@ -1,0 +1,19 @@
+.loader {
+    width: 100px;
+    height: 100px;
+    border: 7px solid rgb(54, 92, 54);
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    display: inline-block;
+    animation: roater 1.5s linear infinite;
+    margin-top: 100px;
+  }
+  @keyframes roater {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

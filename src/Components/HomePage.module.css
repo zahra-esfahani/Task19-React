@@ -1,0 +1,24 @@
+.parent{
+    width: 100%;
+    text-align: center;
+    color:rgb(54, 92, 54);
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tabs div{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.choose{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dashed green;
+    margin-top: 100px;
+    padding: 20px;
+}
