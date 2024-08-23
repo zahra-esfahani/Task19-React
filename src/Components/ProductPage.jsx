@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Loader from "./Loader";
 import ProductDetails from "./ProductDetails";
-function ProductPage({ name }) {
+function ProductPage({ name  }) {
   const [isLoading, setIsLoading] = useState(true);
   const [products, setProducts] = useState([]);
   const id = name[name.length - 1];
