@@ -2,6 +2,7 @@
     width: 100%;
     text-align: center;
     color:rgb(54, 92, 54);
+    margin-top: 30px;
 }
 .tabs{
     display: flex;
@@ -21,4 +22,10 @@
     border: 2px dashed green;
     margin-top: 100px;
     padding: 20px;
+}
+@media (max-width:575px){
+    .tabs {
+        margin-left:80px;
+        margin-right: 80px;
+    }
 }

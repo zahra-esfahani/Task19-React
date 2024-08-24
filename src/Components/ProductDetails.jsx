@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./ProductsDetails.module.css"
 function ProductDetails({ item }) {
-  console.log(item);
   return (
     <>
       <div className={styles.parentItem}>
